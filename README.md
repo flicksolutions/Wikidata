@@ -67,7 +67,6 @@ Einstellungen für Module und Allgemeines werden in den _Settings_ getroffen.
 
 
 # Arbeit mit Linked Open Data am Beispiel von Wikidata
-"**Wikidata** is a free, collaborative, multilingual, secondary database, collecting structured data to provide support for Wikipedia, Wikimedia Commons, the other wikis of the [Wikimedia movement](https://www.wikidata.org/wiki/Help:Wikimedia "Help:Wikimedia"), and to anyone in the world."
-- wikidata.org
+"**Wikidata** is a free, collaborative, multilingual, secondary database, collecting structured data to provide support for Wikipedia, Wikimedia Commons, the other wikis of the [Wikimedia movement](https://www.wikidata.org/wiki/Help:Wikimedia "Help:Wikimedia"), and to anyone in the world." -- wikidata.org
 
-Die Datenbank von Wikidata hat eine Schnittstelle an die man sich mit SPARQL-Anfragen wenden kann und Daten im JSON-Format zurückgeliefert werden. Diese können dann weiterverarbeitet werden. Beispiel: https://repl.it/join/vhrspsco-flicks von der Abfrage: https://w.wiki/7E7
+Die Datenbank von Wikidata hat eine Schnittstelle an die man sich mit SPARQL-Anfragen wenden kann und Daten im JSON-Format zurückgeliefert werden. Diese können dann weiterverarbeitet werden. Ein Beispiel findet Ihr in diesem Repo (oder auf [repl.it](https://repl.it/join/vhrspsco-flicks) von der Abfrage: https://w.wiki/7E7
