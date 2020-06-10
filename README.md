@@ -1,3 +1,7 @@
+Hier meine kurzen Notizen zum Kurs:
+
+Im Code befindet sich ein kleines Beispiel zu LOD
+
 # Arbeiten mit Omeka
 Anlegen von Karten, Anpassung der Darstellung und Navigation.
 
