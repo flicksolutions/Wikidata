@@ -30,16 +30,14 @@ let data = "empty";
 
 const runquery = () => {
   queryDispatcher.query( sparqlQuery ).then( result => {
-    let labels;
-    let datasetValues;
     //console.log(result);
-    labels = result.results.bindings.map( object => { 
+    const labels = result.results.bindings.map( object => { 
       //console.log(object.countryLabel.value) 
       return object.countryLabel.value;
       });
     //console.log(labels);
 
-    datasetValues = result.results.bindings.map( object => { 
+    const datasetValues = result.results.bindings.map( object => { 
       //console.log(object.countryLabel.value) 
       return object.population.value / 1000000;
       });
@@ -66,9 +64,7 @@ const createChart = () => {
       height: 300,
       colors: ['purple', '#ffa3ef', 'light-blue'],
       axisOptions: {
-        yAxisMode: "tick",
         xIsSeries: 1,
-        
       },
       tooltipOptions: {
         formatTooltipX: d => (d + '').toUpperCase(),
